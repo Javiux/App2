@@ -2,13 +2,13 @@
     /*error_reporting(E_PARSE);*/
     
     /*Servidor*/
-    define("HOST", 'localhost');
+    define("HOST", '20.228.236.188');
     /*Base de datos*/
     define("DB", 'prueba');
     /*Nombre del usuario*/
-    define("USER", "root");
+    define("USER", "server");
     /*Contraseña*/
-    define("PASS", "");
+    define("PASS", "123456789");
     
 
     
