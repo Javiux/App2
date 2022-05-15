@@ -21,7 +21,9 @@
 			<form action="php/proceso.php" method="POST" class="AjaxForm">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 					<input class="mdl-textfield__input" type="text" name="Nombre">
-					<label class="mdl-textfield__label",FONT COLOR="red">Nombre</label>
+					<FONT COLOR="red">
+					<label class="mdl-textfield__label">Nombre</label>
+				        </FONT>
 				</div>
 				<br><br>
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
