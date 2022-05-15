@@ -61,7 +61,7 @@
 	<script>
 $(document).ready(function() {
       var refreshId =  setInterval( function(){
-    $('#actualiza').load('index.php');//actualizas el div
+    $('#actualiza').load('refresh.php');//actualizas el div
    }, 1000 );
 });
 
