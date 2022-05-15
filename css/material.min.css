@@ -9,9 +9,10 @@
 /*# sourceMappingURL=material.min.css.map */
 
 body {
-  heigh:665px;
-  background-image: url("https://i.pinimg.com/736x/77/42/0d/77420df3f9e33db5b79ee25455d3340e.jpg");
+ 
+  background-image: url("https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero.jpg");
   background-repeat: no-repeat;
+  background-size: 50% 50%;
 }
 #main-container{
 	margin: 150px auto;
