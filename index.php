@@ -29,7 +29,7 @@
 					<label class="mdl-textfield__label">Apelllido</label>
 				</div>
 				<br><br>
-				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect", onclick="setTimeout(function(){location.reload();}, 1000);">
 				 	Enviar datos
 				</button>
 			</form>
