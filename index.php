@@ -38,7 +38,7 @@
 	<div class="msjRespuesta"></div>
 
 <br>
-	<div id="feedback-bg-info">
+	<div id="actualiza">
 	<table border="1">
 	  <tr>
 		<td>Nombre</td>
@@ -61,7 +61,7 @@
 	<script>
 $(document).ready(function() {
       var refreshId =  setInterval( function(){
-    $('#feedback-bg-info').load('index.php');//actualizas el div
+    $('#actualiza').load('index.php');//actualizas el div
    }, 1000 );
 });
 
