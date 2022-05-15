@@ -39,7 +39,7 @@
 	<div class="msjRespuesta"></div>
 
 <br>
-	<div id="actualiza">
+	<div id="main-container">
 	<table border="1">
 	  <tr>
 		<td>Nombre</td>
