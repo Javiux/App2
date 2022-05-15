@@ -29,7 +29,7 @@ body {
   /* Damos un color de fondo mientras la imagen está cargando  */
   background-color: #464646;
 
-  color: red;
+ 
 }
 #main-container{
 	margin: 150px auto;
