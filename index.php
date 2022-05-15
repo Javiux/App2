@@ -41,8 +41,8 @@
 	<div id="main-container">
 	<table border="1">
 	  <tr>
-		<td>Nombre</td>
-		<td>Apellido</td>
+		<th>Nombre</th>
+		<th>Apellido</th>
 	  </tr>
 	 <?php
 		$sql="SELECT * FROM usuario";
