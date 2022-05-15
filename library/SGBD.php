@@ -4,7 +4,7 @@
     /*Servidor*/
     define("HOST", '20.228.236.188');
     /*Base de datos*/
-    define("DB", 'prueba');
+    define("DB", 'newAzure');
     /*Nombre del usuario*/
     define("USER", "server");
     /*Contraseña*/
