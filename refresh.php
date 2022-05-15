@@ -1,4 +1,11 @@
+
 <div id="actualiza">
+	<?php 
+
+	$conexion=mysqli_connect('localhost','root','','pruebas');
+
+ ?>
+
   <table border="1">
 	  <tr>
 		<td>Nombre</td>
