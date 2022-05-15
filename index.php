@@ -129,7 +129,7 @@ $result = mysqli_query($conexion,$query) or die(mysqli_error());
 	  </tr>
 	<?php
 	}
-	?<	
+	?>	
       </table>
 </form>
 </body>
