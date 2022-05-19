@@ -20,14 +20,14 @@
 		<div class="mdl-cell--4-col-phone mdl-cell--8-col-table mdl-cell--6-col-desktop mdl-cell--3-offset-desktop">
 			<form action="php/proceso.php" method="POST" class="AjaxForm">
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-					<input class="mdl-textfield__input" type="text" name="Nombre">
+					<input class="mdl-textfield__input" type="text" name="nombre">
 					<FONT COLOR="red">
 					<label class="mdl-textfield__label">Nombre:</label>
 				        </FONT>
 				</div>
 				<br><br>
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-					<input class="mdl-textfield__input" type="text" name="Apellido">
+					<input class="mdl-textfield__input" type="text" name="numero_control">
 					<label class="mdl-textfield__label">No. Control:</label>
 				</div>
 				<br><br>
@@ -47,13 +47,13 @@
 		<th>No. Control</th>
 	  </tr>
 	 <?php
-		$sql="SELECT * FROM usuario";
+		$sql="SELECT * FROM alumnos";
 		$result=mysqli_query($conexion,$sql);
 	        while($mostrar=mysqli_fetch_array($result)){	
 	 ?>
     	  <tr>
-		<td><?php echo $mostrar['Nombre']?></td>
-		<td><?php echo $mostrar['Apellido']?></td>
+		<td><?php echo $mostrar['nombre']?></td>
+		<td><?php echo $mostrar['numero_control']?></td>
 	  </tr>
 	<?php
 	}
