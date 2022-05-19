@@ -2,7 +2,7 @@
     /*error_reporting(E_PARSE);*/
     
     /*Servidor*/
-    define("HOST", '10.0.0.6');
+    define("HOST", '10.0.0.4');
     /*Base de datos*/
     define("DB", 'proyecto');
     /*Nombre del usuario*/
