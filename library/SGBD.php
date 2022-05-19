@@ -2,13 +2,13 @@
     /*error_reporting(E_PARSE);*/
     
     /*Servidor*/
-    define("HOST", '20.25.51.254');
+    define("HOST", '10.0.0.6');
     /*Base de datos*/
-    define("DB", 'newAzure');
+    define("DB", 'proyecto');
     /*Nombre del usuario*/
-    define("USER", "server");
+    define("USER", "usuario1");
     /*Contraseña*/
-    define("PASS", "123456789");
+    define("PASS", "usuario1");
     
 
     
