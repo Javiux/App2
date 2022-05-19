@@ -1,8 +1,8 @@
 <?php
 	include '../library/SGBD.php';
-	$Nombre=$_POST['Nombre'];
-	$Apellido=$_POST['Apellido'];
-	if(SGBD::Insert("usuario", "Nombre, Apellido", "'$Nombre', '$Apellido'")){
+	$nombre=$_POST['Nombre'];
+	$num_control=$_POST['Apellido'];
+	if(SGBD::Insert("usuario", "Nombre, Apellido", "'$nombre', '$num_control'")){
 		echo "<script> alert ('Datos guardados'); </script>";
 	}else{
 		echo "<script> alert ('Error: Datos no guardados'); </script>";
