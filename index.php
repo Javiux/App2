@@ -1,6 +1,6 @@
 <?php 
 
-	$conexion=mysqli_connect('20.25.51.254','server','123456789','newAzure');
+	$conexion=mysqli_connect('10.0.0.6','usuario1','usuario1','proyecto');
 
  ?>
 
@@ -22,13 +22,13 @@
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 					<input class="mdl-textfield__input" type="text" name="Nombre">
 					<FONT COLOR="red">
-					<label class="mdl-textfield__label">Nombre</label>
+					<label class="mdl-textfield__label">Nombre:</label>
 				        </FONT>
 				</div>
 				<br><br>
 				<div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
 					<input class="mdl-textfield__input" type="text" name="Apellido">
-					<label class="mdl-textfield__label">Apelllido</label>
+					<label class="mdl-textfield__label">No. Control:</label>
 				</div>
 				<br><br>
 				<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect", onclick="setTimeout(function(){location.reload();}, 1000);">
@@ -44,7 +44,7 @@
 	<table border="1">
 	  <tr>
 		<th>Nombre</th>
-		<th>Apellido</th>
+		<th>No. Control</th>
 	  </tr>
 	 <?php
 		$sql="SELECT * FROM usuario";
