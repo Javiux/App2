@@ -12,7 +12,7 @@
 		<td>Apellido</td>
 	  </tr>
 	 <?php
-		$sql="SELECT * FROM usuario";
+		$sql="SELECT * FROM alumnos";
 		$result=mysqli_query($conexion,$sql);
 	        while($mostrar=mysqli_fetch_array($result)){	
 	 ?>
