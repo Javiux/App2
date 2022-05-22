@@ -2,7 +2,7 @@
 <div id="actualiza">
 	<?php 
 
-	$conexion=mysqli_connect('localhost','root','','pruebas');
+	#$conexion=mysqli_connect('localhost','root','','pruebas');
 
  ?>
 
