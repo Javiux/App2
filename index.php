@@ -1,6 +1,6 @@
 <?php 
 
-	$conexion=mysqli_connect('10.0.0.5','usuario1','usuario1','proyecto');
+	$conexion=mysqli_connect('10.0.0.4','usuario1','usuario1','proyecto');
 
  ?>
 
