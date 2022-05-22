@@ -11,7 +11,7 @@
 body {
  
   /* Aquí el origen de la imagen */
-  background-image: url(https://cdn.pixabay.com/photo/2016/09/29/13/08/planet-1702788_960_720.jpg);
+  background-image: url(https://arttextum.files.wordpress.com/2019/01/arttextum-paisajes-idilicos-pintrest.gif?w=1200);
 
   /* Fijar la imagen de fondo este vertical y
     horizontalmente y centrado */
@@ -27,7 +27,7 @@ body {
   background-size: cover;
 
   /* Damos un color de fondo mientras la imagen está cargando  */
-  background-color: #464646;
+  background-color: darkblue;
 
  
 }
@@ -37,27 +37,32 @@ body {
 }
 
 table{
-	background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	background-color: rgba(255,255,255,0.7);
 	text-align: left;
-	border-collapse: collapse;
-	width: 100%;
+  border-collapse: collapse;
+  width: 100%;
 }
 
-th, td{
-	padding: 20px;
+th{
+	padding: 8px;
+}
+
+td{
+	padding: 11px;
 }
 
 thead{
-	background-color: #246355;
-	border-bottom: solid 5px #0F362D;
-	color: white;
+	background-color: gainsboro;
+	border-bottom: solid 5px gray;
+	color: black;
 }
 
 tr:nth-child(even){
-	background-color: #ddd;
+	background-color:rgba(0,0,0,.1)
 }
 
 tr:hover td{
-	background-color: #369681;
+	background-color: rgba(50, 2, 117, 0.327);
 	color: white;
 }
